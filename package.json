@@ -1,14 +1,30 @@
 {
   "name": "node2aira",
+  "description": "Aria2's rpc api for node",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "keywords": [
+    "aria2",
+    "client"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": {
+    "name":"Kenshinhu",
+    "email":"hujianxincom@gmail.com"
+  },
   "license": "ISC",
   "dependencies": {
     "websocket": "^1.0.22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kenshinhu/node2aria.git"
+  },
+  "homepage": "https://github.com/Kenshinhu/node2aria",
+  "engines": {
+    "node": ">=0.12.0"
   }
 }
